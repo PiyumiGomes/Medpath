@@ -1,0 +1,191 @@
+/* Reset some basic elements for consistency across browsers */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar container */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2772a1;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure navbar is on top */
+    height: 70px; /* Set the height of the navbar */
+  }
+  
+  /* Logo styling */
+  .logo1 {
+    height: 50px; /* Adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Indicate it's clickable */
+    padding-left: 20px;
+  }
+  
+  /* Navigation links container */
+  .nav-links {
+    display: flex;
+    padding-right: 50px;
+  }
+  
+  /* Menu container within the nav-links */
+  .nav-links .menu {
+    display: flex;
+  }
+  
+  /* Individual navigation link styling */
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect for navigation links */
+  .nav-links a:hover {
+    color: #ff6347; /* Tomato color */
+  }
+  
+  nav {
+    position: fixed; /* Keeps the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the navbar spans the full width */
+    z-index: 1000; /* Ensures the navbar is above other content */
+    background-color: #2772a1; /* Background color for visibility */
+    padding: 15px; /* Adjust padding as needed */
+    height: 70px; /* Consistent height for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for better visibility */
+  }
+  
+  /* Ensure body padding accounts for the fixed navbar */
+  body {
+    padding-top: 70px; /* Same as navbar height to avoid content hiding behind the navbar */
+  }
+  
+  
+  /* Background image section */
+  .background-image {
+    background-image: url('imgs/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; /* Ensure the section covers the full viewport height */
+    padding-top: 70px; /* Adjust this value based on the height of the navbar */
+    position: relative; /* Ensure the background image does not go under the navbar */
+    margin: 0;
+  }
+  
+  
+  
+  .content {
+    text-align: left;
+    color: rgb(39, 90, 120);
+    padding: 20px;
+    margin-left: 70px;
+  }
+  
+  .content h1 {
+    font-size: 48px; /* Increase this value to make the text larger */
+    font-weight: bold;
+    line-height: 1.2; /* Adjust for line spacing */
+  }
+  
+  .cta-button {
+    padding: 12px 30px;
+    font-size: 18px;
+    color: white;
+    background-color:#2772a1 ; /* Primary button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #598bc0; /* Darker shade on hover */
+  }
+  
+  
+  .about-section {
+    padding: 50px 0;
+    background-color: #f7f8fc;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+  
+  .text-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .text-container p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-item h3 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .stat-item p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  
