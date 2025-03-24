@@ -18,7 +18,7 @@ body, ul, li, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2772a1;
+    background-color: #132b3a;
     padding: 15px;
     position: fixed;
     width: 100%;
@@ -82,7 +82,7 @@ body, ul, li, a {
   
   /* Background image section */
   .background-image {
-    background-image: url('imgs/img1.jpg');
+    background-image: url('137007.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
